@@ -1,0 +1,3 @@
+flaticon se uso para el favicon
+bootstrap-icons se instalo
+se utilizo la fuente Montserrat descargada de google fonts
