@@ -34,5 +34,15 @@ export const navbarRedes = [
         link: 'https://www.whatsapp.com/',
         icon: 'bi bi-whatsapp'
     },
+    {
+        id: 3,
+        title: 'Tiktok',
+        link: 'https://www.tiktok.com/',
+        icon: 'bi bi-tiktok'
+    },
 ]
 
+export const toogleMenu = () =>{
+    //Asignar el valor contrario
+    setIsOpen(!isOpen)
+}
