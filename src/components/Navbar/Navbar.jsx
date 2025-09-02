@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../../assets/logo.jpg'
+import Logo from '../../assets/logo/logo.jpg'
 import { navbarLinks, navbarRedes } from '../../utils/Nav.js'
 
 export const Navbar = () => {
