@@ -2,6 +2,7 @@ import { Navbar } from "./components/Navbar/Navbar"
 import { Hero } from "./components/Hero/Hero"
 import Fondo from "./assets/background/fondo2.jpeg"
 import { Footer } from "./components/Footer/Footer"
+import { Category } from "./components/Category/Category"
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Hero />
         </div>
       </div>
+      <Category />
       <Footer />
     </>
   )
