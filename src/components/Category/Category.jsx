@@ -1,10 +1,13 @@
 import React from 'react'
-import caballeroImg from '../../assets/category/caballero.jpeg'
-import damaImg from '../../assets/category/dama.jpeg'
-import ninioImg from '../../assets/category/Ninio.jpeg'
+import caballeroImg from '../../assets/category/caballeroCalzado.jpeg'
+import caballeroRopaImg from '../../assets/category/caballeroRopa.jpeg'
+import damaImg from '../../assets/category/damaCalzado.jpeg'
+import damaRopaImg from '../../assets/category/damaRopa.png'
+import ninioImg from '../../assets/category/NinioCalzado.jpeg'
+import ninioRopaImg from '../../assets/category/NinioRopa.jpg'
 
 export const Category = () => {
-  const categorias = [
+  const categoriasCalzado = [
     {
       id: 'caballero',
       titulo: 'Caballero',
@@ -25,6 +28,27 @@ export const Category = () => {
     }
   ]
 
+    const categoriasRopa = [
+    {
+      id: 'caballero',
+      titulo: 'Caballero',
+      imagen: caballeroRopaImg,
+      descripcion: 'Descubre nuestra colección de ropa masculina'
+    },
+    {
+      id: 'dama',
+      titulo: 'Dama',
+      imagen: damaRopaImg,
+      descripcion: 'Explora nuestros diseños en ropa femeninos'
+    },
+    {
+      id: 'ninio',
+      titulo: 'Niño',
+      imagen: ninioRopaImg,
+      descripcion: 'Encuentra el estilo perfecto para los pequeños'
+    }
+  ]
+
   const manejarClick = (categoria) => {
     // Navegación a cada sección
     console.log(`Navegando a la sección: ${categoria}`)
@@ -34,22 +58,57 @@ export const Category = () => {
   return (
     <section className="py-16 px-5 bg-white min-h-screen">
       <div className="max-w-6xl mx-auto">
-        
+
         <h2 className="text-center text-4xl font-bold text-gray-900 mb-12 uppercase tracking-wider">
-          Nuestras Categorías
+          Nuestras Categorías en Calzado
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center">
-          {categorias.map((categoria) => (
-            <div 
+        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-10 justify-items-center">
+          {categoriasCalzado.map((categoria) => (
+            <div
               key={categoria.id}
               className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer max-w-sm w-full hover:-translate-y-2 group flex flex-col h-full"
               onClick={() => manejarClick(categoria.id)}
             >
               <div className="h-72 overflow-hidden rounded-t-2xl">
-                <img 
-                  src={categoria.imagen} 
+                <img
+                  src={categoria.imagen}
                   alt={categoria.titulo}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              </div>
+              <div className="p-8 text-center flex flex-col flex-grow">
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4 uppercase tracking-wider">
+                  {categoria.titulo}
+                </h3>
+                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">
+                  {categoria.descripcion}
+                </p>
+                <button className="bg-gradient-to-r from-gray-800 to-gray-600 text-white px-8 py-3 rounded-full font-semibold uppercase tracking-wider transition-all duration-300 hover:from-gray-600 hover:to-gray-400 hover:-translate-y-1 mt-auto">
+                  Ver Colección
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="max-w-6xl mx-auto mt-20">
+
+        <h2 className="text-center text-4xl font-bold text-gray-900 mb-12 uppercase tracking-wider">
+          Nuestras Categorías en Ropa
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-10 justify-items-center">
+          {categoriasRopa.map((categoria) => (
+            <div
+              key={categoria.id}
+              className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer max-w-sm w-full hover:-translate-y-2 group flex flex-col h-full"
+              onClick={() => manejarClick(categoria.id)}
+            >
+              <div className="h-72 overflow-hidden rounded-t-2xl">
+                <img
+                  src={categoria.imagen}
+                  alt={categoria.titulo}
+                  className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
               <div className="p-8 text-center flex flex-col flex-grow">

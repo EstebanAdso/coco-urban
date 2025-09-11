@@ -1,3 +1,4 @@
 flaticon se uso para el favicon
 bootstrap-icons se instalo
 se utilizo la fuente Montserrat descargada de google fonts
+se utilizo react-router-dom para navegar en las paginas 
