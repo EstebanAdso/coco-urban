@@ -5,7 +5,7 @@ export const Hero = () => {
     <section className='flex items-center justify-center h-screen'>
       <div className='text-center text-white max-w-4xl mx-auto px-6'>
         {/* Slogan principal */}
-        <div className='mb-8'>
+        <div className='mb-8 mt-10'>
           <h1 className='text-5xl md:text-7xl font-bold mb-6 leading-tight'>
             <span className='block text-amber-200 text-6xl md:text-8xl font-extrabold mb-2'>COCO</span>
             <span className='block text-white'>URBAN</span>

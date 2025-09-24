@@ -37,7 +37,7 @@ export const Navbar = () => {
 
                     {/* Logo navbar */}
                     <div>
-                        <img src={Logo} alt="Logo del sitio coco urban" className={`rounded-full ${scrolled ? 'w-[70px]' : 'w-[90px]'}`} />
+                        <img src={Logo} alt="Logo del sitio coco urban" className={`rounded-full ${scrolled ? 'w-[60px] md:w-[80px]' : 'w-[70px] md:w-[100px]'}`} />
                     </div>
 
                     {/* Boton de hamburguesa */}

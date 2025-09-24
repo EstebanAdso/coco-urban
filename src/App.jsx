@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom"
 import { Navbar } from "./components/Navbar/Navbar"
 import { Hero } from "./components/Hero/Hero"
 import Fondo from "./assets/background/fondo2.jpeg"
@@ -8,6 +8,7 @@ import { WarrantyPolicy } from "./components/WarrantyPolicy/WarrantyPolicy"
 import { AboutUs } from "./components/AboutUs/AboutUs"
 import { Layout } from "./components/Layout/Layout"
 import { ScrollToTop } from "./utils/ScrollToTop"
+import { Catalogo } from "./components/Catalogo/Catalogo"
 
 function App() {
 
@@ -46,6 +47,10 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/warranty-policy" element={<WarrantyPolicy />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/catalogo" element={<Navigate to="/catalogo/caballero/sneakers" replace />} />
+          <Route path="/catalogo/:categoria" element={<Catalogo />}>
+            <Route path=":subcategoria" element={<Catalogo />} />
+          </Route>
         </Route>
 
       </Routes>

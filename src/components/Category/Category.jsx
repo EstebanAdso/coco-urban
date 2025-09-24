@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import caballeroImg from '../../assets/category/caballeroCalzado.jpeg'
 import caballeroRopaImg from '../../assets/category/caballeroRopa.jpeg'
 import damaImg from '../../assets/category/damaCalzado.jpeg'
@@ -7,24 +8,29 @@ import ninioImg from '../../assets/category/NinioCalzado.jpeg'
 import ninioRopaImg from '../../assets/category/NinioRopa.jpg'
 
 export const Category = () => {
+  const navigate = useNavigate();
+
   const categoriasCalzado = [
     {
       id: 'caballero',
       titulo: 'Caballero',
       imagen: caballeroImg,
-      descripcion: 'Descubre nuestra colección masculina'
+      descripcion: 'Descubre nuestra colección masculina',
+      link: '/catalogo/caballero/sneakers'
     },
     {
       id: 'dama',
       titulo: 'Dama',
       imagen: damaImg,
-      descripcion: 'Explora nuestros diseños femeninos'
+      descripcion: 'Explora nuestros diseños femeninos',
+      link: '/catalogo/dama/sneakers'
     },
     {
       id: 'ninio',
       titulo: 'Niño',
       imagen: ninioImg,
-      descripcion: 'Encuentra el estilo perfecto para los pequeños'
+      descripcion: 'Encuentra el estilo perfecto para los pequeños',
+      link: '/catalogo/nino/sneakers'
     }
   ]
 
@@ -33,27 +39,33 @@ export const Category = () => {
       id: 'caballero',
       titulo: 'Caballero',
       imagen: caballeroRopaImg,
-      descripcion: 'Descubre nuestra colección de ropa masculina'
+      descripcion: 'Descubre nuestra colección de ropa masculina',
+      link: '/catalogo/ropa/caballero'
     },
     {
       id: 'dama',
       titulo: 'Dama',
       imagen: damaRopaImg,
-      descripcion: 'Explora nuestros diseños en ropa femeninos'
+      descripcion: 'Explora nuestros diseños en ropa femeninos',
+      link: '/catalogo/ropa/dama'
     },
     {
       id: 'ninio',
       titulo: 'Niño',
       imagen: ninioRopaImg,
-      descripcion: 'Encuentra el estilo perfecto para los pequeños'
+      descripcion: 'Encuentra el estilo perfecto para los pequeños',
+      link: '/catalogo/ropa/nino'
     }
   ]
 
   const manejarClick = (categoria) => {
-    // Navegación a cada sección
-    console.log(`Navegando a la sección: ${categoria}`)
-    // Aquí se puede implementar la navegación real
-  }
+    if (categoria.link) {
+      navigate(categoria.link);
+      console.log(`Navegando a: ${categoria.link}`);
+    } else {
+      console.error('No se encontró el enlace para la categoría:', categoria.id);
+    }
+  };
 
   return (
     <section className="py-16 px-5 bg-white min-h-screen">
@@ -67,7 +79,7 @@ export const Category = () => {
             <div
               key={categoria.id}
               className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer max-w-sm w-full hover:-translate-y-2 group flex flex-col h-full"
-              onClick={() => manejarClick(categoria.id)}
+              onClick={() => manejarClick(categoria)}
             >
               <div className="h-72 overflow-hidden rounded-t-2xl">
                 <img
@@ -83,7 +95,13 @@ export const Category = () => {
                 <p className="text-gray-600 mb-6 leading-relaxed flex-grow">
                   {categoria.descripcion}
                 </p>
-                <button className="bg-gradient-to-r from-gray-800 to-gray-600 text-white px-8 py-3 rounded-full font-semibold uppercase tracking-wider transition-all duration-300 hover:from-gray-600 hover:to-gray-400 hover:-translate-y-1 mt-auto">
+                <button 
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    manejarClick(categoria);
+                  }}
+                  className="bg-gradient-to-r from-gray-800 to-gray-600 text-white px-8 py-3 rounded-full font-semibold uppercase tracking-wider transition-all duration-300 hover:from-gray-600 hover:to-gray-400 hover:-translate-y-1 mt-auto"
+                >
                   Ver Colección
                 </button>
               </div>
@@ -102,7 +120,7 @@ export const Category = () => {
             <div
               key={categoria.id}
               className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer max-w-sm w-full hover:-translate-y-2 group flex flex-col h-full"
-              onClick={() => manejarClick(categoria.id)}
+              onClick={() => manejarClick(categoria)}
             >
               <div className="h-72 overflow-hidden rounded-t-2xl">
                 <img
@@ -118,7 +136,13 @@ export const Category = () => {
                 <p className="text-gray-600 mb-6 leading-relaxed flex-grow">
                   {categoria.descripcion}
                 </p>
-                <button className="bg-gradient-to-r from-gray-800 to-gray-600 text-white px-8 py-3 rounded-full font-semibold uppercase tracking-wider transition-all duration-300 hover:from-gray-600 hover:to-gray-400 hover:-translate-y-1 mt-auto">
+                <button 
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    manejarClick(categoria);
+                  }}
+                  className="bg-gradient-to-r from-gray-800 to-gray-600 text-white px-8 py-3 rounded-full font-semibold uppercase tracking-wider transition-all duration-300 hover:from-gray-600 hover:to-gray-400 hover:-translate-y-1 mt-auto"
+                >
                   Ver Colección
                 </button>
               </div>

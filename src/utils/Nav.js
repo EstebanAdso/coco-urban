@@ -6,8 +6,8 @@ export const navbarLinks = [
     },
     {
         id: 2,
-        title: 'Nosotros',
-        link: '#'
+        title: 'Catálogo',
+        link: '/catalogo'
     },
     {
         id: 3,
@@ -16,8 +16,8 @@ export const navbarLinks = [
     },
     {
         id: 4,
-        title: 'Soporte',
-        link: '#'
+        title: 'Nosotros',
+        link: '/about-us'
     }
 ]
 
