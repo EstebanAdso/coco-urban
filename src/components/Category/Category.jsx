@@ -1,11 +1,11 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import caballeroImg from '../../assets/category/caballeroCalzado.jpeg'
-import caballeroRopaImg from '../../assets/category/caballeroRopa.jpeg'
-import damaImg from '../../assets/category/damaCalzado.jpeg'
-import damaRopaImg from '../../assets/category/damaRopa.png'
-import ninioImg from '../../assets/category/NinioCalzado.jpeg'
-import ninioRopaImg from '../../assets/category/NinioRopa.jpg'
+import caballeroImg from '/images/category/caballeroCalzado.jpeg'
+import caballeroRopaImg from '/images/category/caballeroRopa.jpeg'
+import damaImg from '/images/category/damaCalzado.jpeg'
+import damaRopaImg from '/images/category/damaRopa.png'
+import ninioImg from '/images/category/NinioCalzado.jpeg'
+import ninioRopaImg from '/images/category/ninioRopa.jpg'
 
 export const Category = () => {
   const navigate = useNavigate();

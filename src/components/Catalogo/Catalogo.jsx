@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { Navbar } from '../Navbar/Navbar';
 import { getProductsByCategory, getFeaturedProducts, getOffersByCategory } from '../../utils/products';
 import { Loading } from '../Loading/Loading';
-import guiaTallas from '../../assets/guiaTallas/guiaTallas.jpeg';
+import guiaTallas from '/images/guiaTallas/guiaTallas.jpeg';
 
 export const Catalogo = () => {
     // Obtener parámetros de la URL

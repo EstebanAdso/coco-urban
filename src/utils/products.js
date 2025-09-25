@@ -11,7 +11,7 @@ export const products = {
         id: generateId(),
         nombre: "Sneaker Urbano Clásico 1",
         descripcion: "Zapato urbano cómodo y elegante para uso diario",
-        imagen: "/src/assets/zapatos/caballero/sneaker/sneaker.webp",
+        imagen: "/images/zapatos/caballero/sneaker/sneaker.webp",
         destacado: true,
         enOferta: true,
       },
@@ -20,7 +20,7 @@ export const products = {
         nombre: "Sneaker Deportivo",
         descripcion: "Ideal para actividades deportivas y casual",
         precio: 123.99,
-        imagen: "/src/assets/zapatos/caballero/sneaker/sneaker2.webp",
+        imagen: "/images/zapatos/caballero/sneaker/sneaker2.webp",
         tallas: [39, 40, 41, 42, 43],
         destacado: false
       },
@@ -29,7 +29,7 @@ export const products = {
         nombre: "Sneaker Casual",
         descripcion: "Estilo relajado para el día a día",
         enOferta: true,
-        imagen: "/src/assets/zapatos/caballero/sneaker/snekar3.webp",
+        imagen: "/images/zapatos/caballero/sneaker/snekar3.webp",
         tallas: [38, 39, 40, 41, 42, 43, 44],
         destacado: false
       },
@@ -40,7 +40,7 @@ export const products = {
         precio: 199.99,
         enOferta: true,
         precioOferta: 149.99,
-        imagen: "/src/assets/zapatos/caballero/sneaker/sneaker.webp",
+        imagen: "/images/zapatos/caballero/sneaker/sneaker.webp",
         tallas: [38, 39, 40, 41, 42, 43, 44],
         destacado: false
       },
@@ -51,7 +51,7 @@ export const products = {
         precio: 229.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/caballero/sneaker/sneaker2.webp",
+        imagen: "/images/zapatos/caballero/sneaker/sneaker2.webp",
         tallas: [39, 40, 41, 42, 43],
         destacado: true
       },
@@ -62,7 +62,7 @@ export const products = {
         precio: 179.99,
         enOferta: true,
         precioOferta: 149.99,
-        imagen: "/src/assets/zapatos/caballero/sneaker/snekar3.webp",
+        imagen: "/images/zapatos/caballero/sneaker/snekar3.webp",
         tallas: [38, 39, 40, 41, 42, 43, 44],
         destacado: false
       },
@@ -73,7 +73,7 @@ export const products = {
         precio: 229.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/caballero/sneaker/sneaker2.webp",
+        imagen: "/images/zapatos/caballero/sneaker/sneaker2.webp",
         tallas: [39, 40, 41, 42, 43],
         destacado: false
       },
@@ -84,7 +84,7 @@ export const products = {
         precio: 179.99,
         enOferta: true,
         precioOferta: 149.99,
-        imagen: "/src/assets/zapatos/caballero/sneaker/snekar3.webp",
+        imagen: "/images/zapatos/caballero/sneaker/snekar3.webp",
         tallas: [38, 39, 40, 41, 42, 43, 44],
         destacado: false
       }
@@ -97,7 +97,7 @@ export const products = {
         precio: 299.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/caballero/futbol/futbol.jpg",
+        imagen: "/images/zapatos/caballero/futbol/futbol.jpg",
         tallas: [39, 40, 41, 42, 43, 44, 45],
         destacado: false
       },
@@ -108,7 +108,7 @@ export const products = {
         precio: 259.99,
         enOferta: true,
         precioOferta: 219.99,
-        imagen: "/src/assets/zapatos/caballero/futbol/futbol2.webp",
+        imagen: "/images/zapatos/caballero/futbol/futbol2.webp",
         tallas: [39, 40, 41, 42, 43],
         destacado: false
       },
@@ -119,7 +119,7 @@ export const products = {
         precio: 259.99,
         enOferta: true,
         precioOferta: 219.99,
-        imagen: "/src/assets/zapatos/caballero/futbol/futbol3.webp",
+        imagen: "/images/zapatos/caballero/futbol/futbol3.webp",
         tallas: [39, 40, 41, 42, 43],
         destacado: false
       },
@@ -130,7 +130,7 @@ export const products = {
         precio: 259.99,
         enOferta: true,
         precioOferta: 219.99,
-        imagen: "/src/assets/zapatos/caballero/futbol/futbol.jpg",
+        imagen: "/images/zapatos/caballero/futbol/futbol.jpg",
         tallas: [39, 40, 41, 42, 43],
         destacado: false
       }
@@ -143,7 +143,7 @@ export const products = {
         precio: 249.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/caballero/futsal/futsal.webp",
+        imagen: "/images/zapatos/caballero/futsal/futsal.webp",
         tallas: [38, 39, 40, 41, 42, 43],
         destacado: false
       },
@@ -154,7 +154,7 @@ export const products = {
         precio: 229.99,
         enOferta: true,
         precioOferta: 199.99,
-        imagen: "/src/assets/zapatos/caballero/futsal/futsal2.avif",
+        imagen: "/images/zapatos/caballero/futsal/futsal2.avif",
         tallas: [39, 40, 41, 42, 43],
         destacado: false
       },
@@ -165,7 +165,7 @@ export const products = {
         precio: 229.99,
         enOferta: true,
         precioOferta: 199.99,
-        imagen: "/src/assets/zapatos/caballero/futsal/futsal3.jpg",
+        imagen: "/images/zapatos/caballero/futsal/futsal3.jpg",
         tallas: [39, 40, 41, 42, 43],
         destacado: false
       }
@@ -178,7 +178,7 @@ export const products = {
         precio: 349.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/caballero/torretin/torretin.webp",
+        imagen: "/images/zapatos/caballero/torretin/torretin.webp",
         tallas: [40, 41, 42, 43, 44, 45],
         destacado: false
       },
@@ -189,7 +189,7 @@ export const products = {
         precio: 399.99,
         enOferta: true,
         precioOferta: 359.99,
-        imagen: "/src/assets/zapatos/caballero/torretin/torretin2.jpg",
+        imagen: "/images/zapatos/caballero/torretin/torretin2.jpg",
         tallas: [39, 40, 41, 42, 43, 44],
         destacado: true
       },
@@ -200,7 +200,7 @@ export const products = {
         precio: 399.99,
         enOferta: true,
         precioOferta: 359.99,
-        imagen: "/src/assets/zapatos/caballero/torretin/torretin3.webp",
+        imagen: "/images/zapatos/caballero/torretin/torretin3.webp",
         tallas: [39, 40, 41, 42, 43, 44],
         destacado: false
       }
@@ -213,7 +213,7 @@ export const products = {
         precio: 89.99,
         enOferta: true,
         precioOferta: 69.99,
-        imagen: "/src/assets/zapatos/caballero/chanclas/chancla.webp",
+        imagen: "/images/zapatos/caballero/chanclas/chancla.webp",
         tallas: ["S", "M", "L", "XL"],
         destacado: false
       },
@@ -224,7 +224,7 @@ export const products = {
         precio: 79.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/caballero/chanclas/chancla2.avif",
+        imagen: "/images/zapatos/caballero/chanclas/chancla2.avif",
         tallas: ["S", "M", "L", "XL"],
         destacado: false
       },
@@ -235,7 +235,7 @@ export const products = {
         precio: 79.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/caballero/chanclas/chancla3.webp",
+        imagen: "/images/zapatos/caballero/chanclas/chancla3.webp",
         tallas: ["S", "M", "L", "XL"],
         destacado: false
       }
@@ -250,7 +250,7 @@ export const products = {
         precio: 189.99,
         enOferta: true,
         precioOferta: 159.99,
-        imagen: "/src/assets/zapatos/dama/sneaker/sneaker.webp",
+        imagen: "/images/zapatos/dama/sneaker/sneaker.webp",
         tallas: [35, 36, 37, 38, 39, 40],
         destacado: false
       },
@@ -261,7 +261,7 @@ export const products = {
         precio: 219.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/dama/sneaker/sneaker1.webp",
+        imagen: "/images/zapatos/dama/sneaker/sneaker1.webp",
         tallas: [35, 36, 37, 38, 39, 40],
         destacado: false
       },
@@ -272,7 +272,7 @@ export const products = {
         precio: 179.99,
         enOferta: true,
         precioOferta: 149.99,
-        imagen: "/src/assets/zapatos/dama/sneaker/sneaker3.webp",
+        imagen: "/images/zapatos/dama/sneaker/sneaker3.webp",
         tallas: [35, 36, 37, 38, 39, 40],
         destacado: true
       }
@@ -285,7 +285,7 @@ export const products = {
         precio: 279.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/dama/futbol/futbol.webp",
+        imagen: "/images/zapatos/dama/futbol/futbol.webp",
         tallas: [36, 37, 38, 39, 40],
         destacado: false
       },
@@ -296,7 +296,7 @@ export const products = {
         precio: 259.99,
         enOferta: true,
         precioOferta: 219.99,
-        imagen: "/src/assets/zapatos/dama/futbol/futbol2.jpg",
+        imagen: "/images/zapatos/dama/futbol/futbol2.jpg",
         tallas: [36, 37, 38, 39, 40],
         destacado: false
       },
@@ -307,7 +307,7 @@ export const products = {
         precio: 239.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/dama/futbol/futbol3.webp",
+        imagen: "/images/zapatos/dama/futbol/futbol3.webp",
         tallas: [36, 37, 38, 39, 40],
         destacado: false
       }
@@ -320,7 +320,7 @@ export const products = {
         precio: 229.99,
         enOferta: true,
         precioOferta: 199.99,
-        imagen: "/src/assets/zapatos/dama/futsal/futsal.webp",
+        imagen: "/images/zapatos/dama/futsal/futsal.webp",
         tallas: [36, 37, 38, 39, 40],
         destacado: false
       },
@@ -331,7 +331,7 @@ export const products = {
         precio: 249.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/dama/futsal/futsal2.jpg",
+        imagen: "/images/zapatos/dama/futsal/futsal2.jpg",
         tallas: [36, 37, 38, 39, 40],
         destacado: false
       },
@@ -342,7 +342,7 @@ export const products = {
         precio: 219.99,
         enOferta: true,
         precioOferta: 189.99,
-        imagen: "/src/assets/zapatos/dama/futsal/futsal3.jpg",
+        imagen: "/images/zapatos/dama/futsal/futsal3.jpg",
         tallas: [36, 37, 38, 39, 40],
         destacado: false
       }
@@ -355,7 +355,7 @@ export const products = {
         precio: 299.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/dama/torretin/torretin.webp",
+        imagen: "/images/zapatos/dama/torretin/torretin.webp",
         tallas: [36, 37, 38, 39, 40],
         destacado: false
       },
@@ -366,7 +366,7 @@ export const products = {
         precio: 259.99,
         enOferta: true,
         precioOferta: 229.99,
-        imagen: "/src/assets/zapatos/dama/torretin/torretin2.webp",
+        imagen: "/images/zapatos/dama/torretin/torretin2.webp",
         tallas: [36, 37, 38, 39, 40],
         destacado: false
       },
@@ -377,7 +377,7 @@ export const products = {
         precio: 349.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/dama/torretin/torretin3.jpeg",
+        imagen: "/images/zapatos/dama/torretin/torretin3.jpeg",
         tallas: [36, 37, 38, 39, 40],
         destacado: false
       }
@@ -390,7 +390,7 @@ export const products = {
         precio: 79.99,
         enOferta: true,
         precioOferta: 59.99,
-        imagen: "/src/assets/zapatos/dama/chanclas/chancla.webp",
+        imagen: "/images/zapatos/dama/chanclas/chancla.webp",
         tallas: ["S", "M", "L"],
         destacado: false
       },
@@ -401,7 +401,7 @@ export const products = {
         precio: 89.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/dama/chanclas/chancla2.webp",
+        imagen: "/images/zapatos/dama/chanclas/chancla2.webp",
         tallas: ["S", "M", "L"],
         destacado: false
       },
@@ -412,7 +412,7 @@ export const products = {
         precio: 99.99,
         enOferta: true,
         precioOferta: 79.99,
-        imagen: "/src/assets/zapatos/dama/chanclas/chancla3.webp",
+        imagen: "/images/zapatos/dama/chanclas/chancla3.webp",
         tallas: ["S", "M", "L"],
         destacado: false
       }
@@ -427,7 +427,7 @@ export const products = {
         precio: 149.99,
         enOferta: true,
         precioOferta: 129.99,
-        imagen: "/src/assets/zapatos/niño/sneaker/sneaker.webp",
+        imagen: "/images/zapatos/niño/sneaker/sneaker.webp",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       },
@@ -438,7 +438,7 @@ export const products = {
         precio: 129.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/niño/sneaker/sneaker2.webp",
+        imagen: "/images/zapatos/niño/sneaker/sneaker2.webp",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       },
@@ -449,7 +449,7 @@ export const products = {
         precio: 119.99,
         enOferta: true,
         precioOferta: 99.99,
-        imagen: "/src/assets/zapatos/niño/sneaker/sneaker3.webp",
+        imagen: "/images/zapatos/niño/sneaker/sneaker3.webp",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       }
@@ -462,7 +462,7 @@ export const products = {
         precio: 199.99,
         enOferta: true,
         precioOferta: 169.99,
-        imagen: "/src/assets/zapatos/niño/futbol/futbol.webp",
+        imagen: "/images/zapatos/niño/futbol/futbol.webp",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       },
@@ -473,7 +473,7 @@ export const products = {
         precio: 179.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/niño/futbol/futbol2.jpg",
+        imagen: "/images/zapatos/niño/futbol/futbol2.jpg",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       },
@@ -484,7 +484,7 @@ export const products = {
         precio: 219.99,
         enOferta: true,
         precioOferta: 189.99,
-        imagen: "/src/assets/zapatos/niño/futbol/futbol3.webp",
+        imagen: "/images/zapatos/niño/futbol/futbol3.webp",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       }
@@ -497,7 +497,7 @@ export const products = {
         precio: 189.99,
         enOferta: true,
         precioOferta: 159.99,
-        imagen: "/src/assets/zapatos/niño/futsal/futsal.avif",
+        imagen: "/images/zapatos/niño/futsal/futsal.avif",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       },
@@ -508,7 +508,7 @@ export const products = {
         precio: 169.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/niño/futsal/futsal2.webp",
+        imagen: "/images/zapatos/niño/futsal/futsal2.webp",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       },
@@ -519,7 +519,7 @@ export const products = {
         precio: 199.99,
         enOferta: true,
         precioOferta: 179.99,
-        imagen: "/src/assets/zapatos/niño/futsal/futsal3.webp",
+        imagen: "/images/zapatos/niño/futsal/futsal3.webp",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       },
@@ -530,7 +530,7 @@ export const products = {
         precio: 189.99,
         enOferta: true,
         precioOferta: 159.99,
-        imagen: "/src/assets/zapatos/niño/futsal/futsal.avif",
+        imagen: "/images/zapatos/niño/futsal/futsal.avif",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       },
@@ -541,7 +541,7 @@ export const products = {
         precio: 169.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/niño/futsal/futsal2.webp",
+        imagen: "/images/zapatos/niño/futsal/futsal2.webp",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       },
@@ -552,7 +552,7 @@ export const products = {
         precio: 199.99,
         enOferta: true,
         precioOferta: 179.99,
-        imagen: "/src/assets/zapatos/niño/futsal/futsal3.webp",
+        imagen: "/images/zapatos/niño/futsal/futsal3.webp",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       }
@@ -565,7 +565,7 @@ export const products = {
         precio: 229.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/niño/torretin/torretin.webp",
+        imagen: "/images/zapatos/niño/torretin/torretin.webp",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       },
@@ -576,7 +576,7 @@ export const products = {
         precio: 209.99,
         enOferta: true,
         precioOferta: 189.99,
-        imagen: "/src/assets/zapatos/niño/torretin/torretin2.webp",
+        imagen: "/images/zapatos/niño/torretin/torretin2.webp",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       },
@@ -587,7 +587,7 @@ export const products = {
         precio: 249.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/zapatos/niño/torretin/torretin3.webp",
+        imagen: "/images/zapatos/niño/torretin/torretin3.webp",
         tallas: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
         destacado: false
       }
@@ -602,7 +602,7 @@ export const products = {
         precio: 49.99,
         enOferta: true,
         precioOferta: 39.99,
-        imagen: "/src/assets/ropa/caballero/caballero1.webp",
+        imagen: "/images/ropa/caballero/caballero1.webp",
         tallas: ["S", "M", "L", "XL", "XXL"],
         destacado: true
       },
@@ -613,7 +613,7 @@ export const products = {
         precio: 129.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/caballero/caballero2.webp",
+        imagen: "/images/ropa/caballero/caballero2.webp",
         tallas: [28, 30, 32, 34, 36, 38],
         destacado: true
       },
@@ -624,7 +624,7 @@ export const products = {
         precio: 159.99,
         enOferta: true,
         precioOferta: 139.99,
-        imagen: "/src/assets/ropa/caballero/caballero3.webp",
+        imagen: "/images/ropa/caballero/caballero3.webp",
         tallas: ["S", "M", "L", "XL"],
         destacado: false
       },
@@ -635,7 +635,7 @@ export const products = {
         precio: 89.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/caballero/caballero4.webp",
+        imagen: "/images/ropa/caballero/caballero4.webp",
         tallas: ["S", "M", "L", "XL"],
         destacado: true
       },
@@ -646,7 +646,7 @@ export const products = {
         precio: 99.99,
         enOferta: true,
         precioOferta: 79.99,
-        imagen: "/src/assets/ropa/caballero/caballero5.avif",
+        imagen: "/images/ropa/caballero/caballero5.avif",
         tallas: ["S", "M", "L", "XL"],
         destacado: false
       },
@@ -657,7 +657,7 @@ export const products = {
         precio: 139.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/caballero/caballero6.avif",
+        imagen: "/images/ropa/caballero/caballero6.avif",
         tallas: [30, 32, 34, 36, 38],
         destacado: false
       },
@@ -668,7 +668,7 @@ export const products = {
         precio: 149.99,
         enOferta: true,
         precioOferta: 129.99,
-        imagen: "/src/assets/ropa/caballero/caballero7.webp",
+        imagen: "/images/ropa/caballero/caballero7.webp",
         tallas: ["S", "M", "L", "XL"],
         destacado: true
       },
@@ -679,7 +679,7 @@ export const products = {
         precio: 69.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/caballero/caballero8.jpg",
+        imagen: "/images/ropa/caballero/caballero8.jpg",
         tallas: ["S", "M", "L", "XL"],
         destacado: false
       },
@@ -690,7 +690,7 @@ export const products = {
         precio: 299.99,
         enOferta: true,
         precioOferta: 259.99,
-        imagen: "/src/assets/ropa/caballero/caballero9.webp",
+        imagen: "/images/ropa/caballero/caballero9.webp",
         tallas: ["S", "M", "L", "XL"],
         destacado: true
       },
@@ -701,7 +701,7 @@ export const products = {
         precio: 89.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/caballero/caballero10.webp",
+        imagen: "/images/ropa/caballero/caballero10.webp",
         tallas: [30, 32, 34, 36, 38],
         destacado: false
       }
@@ -714,7 +714,7 @@ export const products = {
         precio: 129.99,
         enOferta: true,
         precioOferta: 99.99,
-        imagen: "/src/assets/ropa/dama/dama1.JPG",
+        imagen: "/images/ropa/dama/dama1.JPG",
         tallas: ["XS", "S", "M", "L"],
         destacado: true
       },
@@ -725,7 +725,7 @@ export const products = {
         precio: 89.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/dama/dama2.jpg",
+        imagen: "/images/ropa/dama/dama2.jpg",
         tallas: ["XS", "S", "M", "L"],
         destacado: false
       },
@@ -736,7 +736,7 @@ export const products = {
         precio: 109.99,
         enOferta: true,
         precioOferta: 89.99,
-        imagen: "/src/assets/ropa/dama/dama3.webp",
+        imagen: "/images/ropa/dama/dama3.webp",
         tallas: ["XS", "S", "M", "L"],
         destacado: true
       },
@@ -747,7 +747,7 @@ export const products = {
         precio: 119.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/dama/dama4.webp",
+        imagen: "/images/ropa/dama/dama4.webp",
         tallas: [24, 26, 28, 30, 32],
         destacado: false
       },
@@ -758,7 +758,7 @@ export const products = {
         precio: 139.99,
         enOferta: true,
         precioOferta: 119.99,
-        imagen: "/src/assets/ropa/dama/dama5.jpg",
+        imagen: "/images/ropa/dama/dama5.jpg",
         tallas: ["XS", "S", "M", "L"],
         destacado: false
       },
@@ -769,7 +769,7 @@ export const products = {
         precio: 39.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/dama/dama6.webp",
+        imagen: "/images/ropa/dama/dama6.webp",
         tallas: ["XS", "S", "M", "L"],
         destacado: true
       },
@@ -780,7 +780,7 @@ export const products = {
         precio: 249.99,
         enOferta: true,
         precioOferta: 219.99,
-        imagen: "/src/assets/ropa/dama/dama7.avif",
+        imagen: "/images/ropa/dama/dama7.avif",
         tallas: ["XS", "S", "M", "L"],
         destacado: true
       },
@@ -791,7 +791,7 @@ export const products = {
         precio: 129.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/dama/dama8.jpg",
+        imagen: "/images/ropa/dama/dama8.jpg",
         tallas: [24, 26, 28, 30],
         destacado: false
       },
@@ -802,7 +802,7 @@ export const products = {
         precio: 179.99,
         enOferta: true,
         precioOferta: 159.99,
-        imagen: "/src/assets/ropa/dama/dama9.jpg",
+        imagen: "/images/ropa/dama/dama9.jpg",
         tallas: ["XS", "S", "M", "L"],
         destacado: false
       },
@@ -813,7 +813,7 @@ export const products = {
         precio: 99.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/dama/dama10.jpg",
+        imagen: "/images/ropa/dama/dama10.jpg",
         tallas: ["XS", "S", "M", "L"],
         destacado: true
       }
@@ -826,7 +826,7 @@ export const products = {
         precio: 89.99,
         enOferta: true,
         precioOferta: 69.99,
-        imagen: "/src/assets/ropa/nino/nino1.webp",
+        imagen: "/images/ropa/nino/nino1.webp",
         tallas: ["2 años", "4 años", "6 años", "8 años"],
         destacado: true
       },
@@ -837,7 +837,7 @@ export const products = {
         precio: 29.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/nino/nino2.webp",
+        imagen: "/images/ropa/nino/nino2.webp",
         tallas: ["2 años"],
         destacado: false
       },
@@ -848,7 +848,7 @@ export const products = {
         precio: 49.99,
         enOferta: true,
         precioOferta: 39.99,
-        imagen: "/src/assets/ropa/nino/nino3.webp",
+        imagen: "/images/ropa/nino/nino3.webp",
         tallas: ["8 años"],
         destacado: false
       },
@@ -859,7 +859,7 @@ export const products = {
         precio: 59.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/nino/nino4.webp",
+        imagen: "/images/ropa/nino/nino4.webp",
         tallas: ["2 años", "4 años"],
         destacado: true
       },
@@ -870,7 +870,7 @@ export const products = {
         precio: 44.99,
         enOferta: true,
         precioOferta: 39.99,
-        imagen: "/src/assets/ropa/nino/nino5.avif",
+        imagen: "/images/ropa/nino/nino5.avif",
         tallas: ["2 años", "4 años"],
         destacado: false
       },
@@ -881,7 +881,7 @@ export const products = {
         precio: 79.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/nino/nino6.jpg",
+        imagen: "/images/ropa/nino/nino6.jpg",
         tallas: ["2 años", "4 años"],
         destacado: true
       },
@@ -892,7 +892,7 @@ export const products = {
         precio: 54.99,
         enOferta: true,
         precioOferta: 44.99,
-        imagen: "/src/assets/ropa/nino/nino7.jpg",
+        imagen: "/images/ropa/nino/nino7.jpg",
         tallas: ["2 años", "4 años"],
         destacado: false
       },
@@ -903,7 +903,7 @@ export const products = {
         precio: 34.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/nino/nino8.webp",
+        imagen: "/images/ropa/nino/nino8.webp",
         tallas: ["8 años"],
         destacado: false
       },
@@ -914,7 +914,7 @@ export const products = {
         precio: 49.99,
         enOferta: true,
         precioOferta: 39.99,
-        imagen: "/src/assets/ropa/nino/nino9.webp",
+        imagen: "/images/ropa/nino/nino9.webp",
         tallas: ["8 años"],
         destacado: true
       },
@@ -925,7 +925,7 @@ export const products = {
         precio: 64.99,
         enOferta: false,
         precioOferta: null,
-        imagen: "/src/assets/ropa/nino/nino10.webp",
+        imagen: "/images/ropa/nino/nino10.webp",
         tallas: ["2 años"],
         destacado: false
       }
