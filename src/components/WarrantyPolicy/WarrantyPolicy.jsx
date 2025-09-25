@@ -122,8 +122,13 @@ export const WarrantyPolicy = () => {
                     <div className="text-center">
                         <h3 className="text-2xl font-semibold text-gray-800 mb-4">¿Necesitas hacer válida tu garantía?</h3>
                         <p className="text-gray-700 mb-6">Estamos aquí para ayudarte. Contáctanos a través de cualquiera de nuestros canales de atención.</p>
-                        <a href="#" className="inline-flex items-center bg-black text-white px-6 py-3 rounded-full hover:bg-amber-200 hover:text-black transition-colors duration-300">
-                            <i className="fab fa-whatsapp mr-2"></i>
+                        <a 
+                            href="https://wa.me/573108873636" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center bg-[#25D366] text-white px-6 py-3 rounded-full hover:bg-[#128C7E] transition-colors duration-300 font-medium"
+                        >
+                            <i className="bi bi-whatsapp mr-2 text-xl"></i>
                             Contactar por WhatsApp
                         </a>
                     </div>

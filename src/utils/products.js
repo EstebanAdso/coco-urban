@@ -12,7 +12,6 @@ export const products = {
         nombre: "Sneaker Urbano Clásico 1",
         descripcion: "Zapato urbano cómodo y elegante para uso diario",
         imagen: "/src/assets/zapatos/caballero/sneaker/sneaker.webp",
-        tallas: [38, 39, 40, 41, 42, 43, 44],
         destacado: true,
         enOferta: true,
       },
@@ -962,4 +961,31 @@ export const getFeaturedProducts = () => {
   
   // Devolver máximo 4 productos
   return shuffled.slice(0, 4);
+};
+
+// Función para obtener productos en oferta por categoría
+export const getOffersByCategory = (category) => {
+  const offers = [];
+  
+  if (products[category]) {
+    // Si es la categoría 'ropa', manejar la estructura diferente
+    if (category === 'ropa') {
+      Object.keys(products[category]).forEach(subcategory => {
+        const offersInSubcategory = products[category][subcategory].filter(
+          product => product.enOferta === true
+        );
+        offers.push(...offersInSubcategory);
+      });
+    } else {
+      // Para otras categorías (caballero, dama, nino)
+      Object.keys(products[category]).forEach(subcategory => {
+        const offersInSubcategory = products[category][subcategory].filter(
+          product => product.enOferta === true
+        );
+        offers.push(...offersInSubcategory);
+      });
+    }
+  }
+  
+  return offers;
 };
