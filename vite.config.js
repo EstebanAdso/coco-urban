@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig(() => {
-  const base = '/coco-urban/';
+  const base = '/';
   
   return {
     base,
