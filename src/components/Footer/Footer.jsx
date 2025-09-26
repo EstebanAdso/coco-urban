@@ -102,11 +102,11 @@ export const Footer = ({ toggleContactModal }) => {
         <div className="border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
           <p>&copy; {new Date().getFullYear()} Coco Urban. Todos los derechos reservados.</p>
           <div className="mt-2 flex flex-col sm:flex-row sm:space-x-4 space-y-2 sm:space-y-0 items-center justify-center">
-            <Link to="/privacy-policy" className="hover:text-white transition-colors duration-300">Política de Privacidad</Link>
+            <Link to="/coco-urban/privacy-policy" className="hover:text-white transition-colors duration-300">Política de Privacidad</Link>
             <span className="hidden sm:inline">•</span>
-            <Link to="/terms" className="hover:text-white transition-colors duration-300">Términos y Condiciones</Link>
+            <Link to="/coco-urban/terms" className="hover:text-white transition-colors duration-300">Términos y Condiciones</Link>
             <span className="hidden sm:inline">•</span>
-            <Link to="/warranty-policy" className="hover:text-white transition-colors duration-300">Política de Garantía</Link>
+            <Link to="/coco-urban/warranty-policy" className="hover:text-white transition-colors duration-300">Política de Garantía</Link>
           </div>
         </div>
       </div>

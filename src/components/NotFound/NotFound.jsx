@@ -30,7 +30,7 @@ export const NotFound = () => {
             Ir al Inicio
           </Link>
           <Link
-            to="/catalogo"
+            to="/coco-urban/catalogo"
             className="inline-block w-full sm:w-auto border-2 border-amber-500 text-amber-500 hover:bg-amber-500 hover:text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300"
           >
             Ver Catálogo
