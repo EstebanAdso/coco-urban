@@ -50,6 +50,14 @@ export const Navbar = ({ isContactModalOpen, toggleContactModal }) => {
     }, [])
 
     const toggleMenu = () => {
+        if (!isOpen) {
+            // Al abrir el menú, hacer un pequeño scroll relativo para activar los estilos
+            const currentPosition = window.scrollY;
+            window.scrollTo({
+                top: currentPosition + 40,
+                behavior: 'smooth'
+            });
+        }
         setIsOpen(!isOpen)
     }
 
@@ -65,13 +73,14 @@ export const Navbar = ({ isContactModalOpen, toggleContactModal }) => {
         setExpandedCategory(expandedCategory === categoryId ? null : categoryId);
     }
 
+    // Maneja la navegación a las categorías en movil 
     const handleCategoryNavigation = (categoryId, subcategoryId = null) => {
         setIsOpen(false);
         setExpandedCategory(null);
         if (subcategoryId) {
-            navigate(`/catalogo/${categoryId}/${subcategoryId}`);
+            navigate(`/coco-urban/catalogo/${categoryId}/${subcategoryId}`);
         } else {
-            navigate(`/catalogo/${categoryId}`);
+            navigate(`/coco-urban/catalogo/${categoryId}`);
         }
     }
 
@@ -170,7 +179,7 @@ export const Navbar = ({ isContactModalOpen, toggleContactModal }) => {
                 {/* Enlaces principales */}
                 <ul className='flex flex-col px-6 py-1'>
                     {navbarLinks.filter(link => link.title !== 'Catálogo').map((link) => (
-                        <li key={link.id} className='py-6 text-center border-b border-white/20'>
+                        <li key={link.id} className='py-2 text-center border-b border-white/20'>
                             {link.title === 'Contacto' ? (
                                 <button 
                                     onClick={() => {
