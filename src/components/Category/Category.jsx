@@ -16,21 +16,21 @@ export const Category = () => {
       titulo: 'Caballero',
       imagen: caballeroImg,
       descripcion: 'Descubre nuestra colección masculina',
-      link: '/catalogo/caballero/sneakers'
+      link: '/coco-urban/catalogo/caballero/sneakers'
     },
     {
       id: 'dama',
       titulo: 'Dama',
       imagen: damaImg,
       descripcion: 'Explora nuestros diseños femeninos',
-      link: '/catalogo/dama/sneakers'
+      link: '/coco-urban/catalogo/dama/sneakers'
     },
     {
       id: 'ninio',
       titulo: 'Niño',
       imagen: ninioImg,
       descripcion: 'Encuentra el estilo perfecto para los pequeños',
-      link: '/catalogo/nino/sneakers'
+      link: '/coco-urban/catalogo/nino/sneakers'
     }
   ]
 
@@ -40,21 +40,21 @@ export const Category = () => {
       titulo: 'Caballero',
       imagen: caballeroRopaImg,
       descripcion: 'Descubre nuestra colección de ropa masculina',
-      link: '/catalogo/ropa/caballero'
+      link: '/coco-urban/catalogo/ropa/caballero'
     },
     {
       id: 'dama',
       titulo: 'Dama',
       imagen: damaRopaImg,
       descripcion: 'Explora nuestros diseños en ropa femeninos',
-      link: '/catalogo/ropa/dama'
+      link: '/coco-urban/catalogo/ropa/dama'
     },
     {
       id: 'ninio',
       titulo: 'Niño',
       imagen: ninioRopaImg,
       descripcion: 'Encuentra el estilo perfecto para los pequeños',
-      link: '/catalogo/ropa/nino'
+      link: '/coco-urban/catalogo/ropa/nino'
     }
   ]
 
