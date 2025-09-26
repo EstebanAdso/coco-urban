@@ -33,7 +33,7 @@ export const Footer = ({ toggleContactModal }) => {
                 <i className="bi bi-instagram"></i>
               </a>
               <a 
-                href="https://wa.me/573108873636" 
+                href="https://wa.me/573108873636?text=Vengo%20de%20la%20página%20de%20Coco%20Urban%20y%20me%20interesa%20adquirir%20un%20producto."
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-2xl hover:text-amber-200 transition-colors duration-300"
@@ -76,7 +76,7 @@ export const Footer = ({ toggleContactModal }) => {
               <li className="flex items-center">
                 <i className="bi bi-telephone-fill mr-3 text-amber-200"></i>
                 <a 
-                  href="https://wa.me/573108873636" 
+                  href="https://wa.me/573108873636?text=Vengo%20de%20la%20página%20de%20Coco%20Urban%20y%20me%20interesa%20adquirir%20un%20producto." 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center hover:text-white transition-colors duration-300"

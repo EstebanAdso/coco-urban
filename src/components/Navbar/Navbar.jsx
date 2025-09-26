@@ -294,7 +294,7 @@ export const Navbar = ({ isContactModalOpen, toggleContactModal }) => {
                         <div className="mb-6">
                             <h3 className="text-lg font-semibold text-gray-700 mb-3">Escríbenos por WhatsApp</h3>
                             <a 
-                                href="https://wa.me/573108873636" 
+                                href="https://wa.me/573108873636?text=Vengo%20de%20la%20página%20de%20Coco%20Urban%20y%20me%20interesa%20adquirir%20un%20producto." 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center bg-[#25D366] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#128C7E] transition-colors duration-300"

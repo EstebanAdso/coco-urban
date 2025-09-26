@@ -123,7 +123,7 @@ export const WarrantyPolicy = () => {
                         <h3 className="text-2xl font-semibold text-gray-800 mb-4">¿Necesitas hacer válida tu garantía?</h3>
                         <p className="text-gray-700 mb-6">Estamos aquí para ayudarte. Contáctanos a través de cualquiera de nuestros canales de atención.</p>
                         <a 
-                            href="https://wa.me/573108873636" 
+                            href="https://wa.me/573108873636?text=Vengo%20de%20la%20página%20de%20Coco%20Urban%20y%20me%20interesa%20adquirir%20un%20producto." 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="inline-flex items-center bg-[#25D366] text-white px-6 py-3 rounded-full hover:bg-[#128C7E] transition-colors duration-300 font-medium"

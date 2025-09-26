@@ -90,7 +90,7 @@ export const PrivacyPolicy = () => {
                                 Si tienes preguntas sobre esta política de privacidad o sobre cómo manejamos tu información, contáctanos en:
                             </p>
                             <p className="text-gray-700">
-                                Teléfono: <a href="https://wa.me/573108873636" className="text-amber-600 hover:underline">+57 310 887 3636</a>
+                                Teléfono: <a href="https://wa.me/573108873636?text=Vengo%20de%20la%20página%20de%20Coco%20Urban%20y%20me%20interesa%20adquirir%20un%20producto." className="text-amber-600 hover:underline">+57 310 887 3636</a>
                             </p>
                         </section>
                     </div>
