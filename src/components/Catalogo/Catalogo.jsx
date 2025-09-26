@@ -290,7 +290,7 @@ export const Catalogo = () => {
                         <h2 className="text-2xl font-semibold text-gray-800 mb-6 hidden md:block">
                             {'Sección de: ' + categoriaActiva.nombre}
                         </h2>
-                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mb-8">
+                        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6 lg:grid-cols-6 gap-2 md:gap-4 mb-8">
                             {categoriaActiva.subcategorias.map((subcategoria) => (
                                 <div
                                     key={subcategoria.id}
@@ -300,15 +300,14 @@ export const Catalogo = () => {
                                         : 'border-transparent hover:border-gray-200'
                                         }`}
                                 >
-                                    {/* Icono de la subcategoría Ofertas */}
-                                    <div className="p-4">
+                                    <div className="p-2 md:p-4">
                                         <div className="flex items-center justify-center">
                                             {subcategoria.id === 'ofertas' && (
-                                                <svg className="w-5 h-5 text-red-500 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className="w-4 h-4 md:w-5 md:h-5 text-red-500 mr-1 md:mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                                     <path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" />
                                                 </svg>
                                             )}
-                                            <h3 className={`text-lg font-medium text-center ${subcategoria.id === 'ofertas' ? 'text-red-600 font-bold' : 'text-gray-800'}`}>
+                                            <h3 className={`text-sm md:text-lg font-medium text-center ${subcategoria.id === 'ofertas' ? 'text-red-600 font-bold' : 'text-gray-800'}`}>
                                                 {subcategoria.nombre}
                                             </h3>
                                         </div>
@@ -379,7 +378,7 @@ export const Catalogo = () => {
                                                     )}
                                                 </div>
                                                 <a
-                                                    href={`https://wa.me/573108873636?text=¡Hola!%20Vengo%20de%20la%20página%20Coco%20Sneaker.%20Me%20interesa%20saber%20más%20sobre%20el%20modelo:%20${encodeURIComponent(producto.nombre)}`}
+                                                    href={`https://wa.me/573108873636?text=¡Hola!%20Vengo%20de%20la%20página%20Coco%20Urban.%20Me%20interesa%20saber%20más%20sobre%20el%20modelo:%20${encodeURIComponent(producto.nombre)}`}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-2 rounded-full text-sm font-semibold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-md"
@@ -494,7 +493,7 @@ export const Catalogo = () => {
                                                     )}
                                                 </div>
                                                 <a
-                                                    href={`https://wa.me/573108873636?text=¡Hola!%20Vengo%20de%20la%20página%20Coco%20Sneaker.%20Me%20interesa%20saber%20más%20sobre%20el%20modelo:%20${encodeURIComponent(producto.nombre)}`}
+                                                    href={`https://wa.me/573108873636?text=¡Hola!%20Vengo%20de%20la%20página%20Coco%20Urban.%20Me%20interesa%20saber%20más%20sobre%20el%20modelo:%20${encodeURIComponent(producto.nombre)}`}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-2 rounded-full text-sm font-semibold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-md"

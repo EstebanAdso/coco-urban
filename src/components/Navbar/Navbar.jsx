@@ -54,7 +54,7 @@ export const Navbar = ({ isContactModalOpen, toggleContactModal }) => {
             // Al abrir el menú, hacer un pequeño scroll relativo para activar los estilos
             const currentPosition = window.scrollY;
             window.scrollTo({
-                top: currentPosition + 40,
+                top: currentPosition + 60,
                 behavior: 'smooth'
             });
         }
