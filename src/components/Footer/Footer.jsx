@@ -57,10 +57,10 @@ export const Footer = ({ toggleContactModal }) => {
           <div>
             <h4 className="text-lg font-semibold mb-6 text-amber-200">Enlaces Rápidos</h4>
             <ul className="space-y-3">
-              <li><Link to="/" className="text-gray-300 hover:text-white transition-colors duration-300">Inicio</Link></li>
-              <li><Link to="/catalogo" className="text-gray-300 hover:text-white transition-colors duration-300">Catálogo</Link></li>
-              <li><Link to="/catalogo/caballero/ofertas" className="text-gray-300 hover:text-white transition-colors duration-300">Ofertas</Link></li>
-              <li><Link to="/about-us" className="text-gray-300 hover:text-white transition-colors duration-300">Nosotros</Link></li>
+              <li><Link to="/coco-urban/" className="text-gray-300 hover:text-white transition-colors duration-300">Inicio</Link></li>
+              <li><Link to="/coco-urban/catalogo" className="text-gray-300 hover:text-white transition-colors duration-300">Catálogo</Link></li>
+              <li><Link to="/coco-urban/catalogo/caballero/ofertas" className="text-gray-300 hover:text-white transition-colors duration-300">Ofertas</Link></li>
+              <li><Link to="/coco-urban/about-us" className="text-gray-300 hover:text-white transition-colors duration-300">Nosotros</Link></li>
               <li><button onClick={toggleContactModal} className="text-gray-300 hover:text-white transition-colors duration-300">Contacto</button></li>
             </ul>
           </div>

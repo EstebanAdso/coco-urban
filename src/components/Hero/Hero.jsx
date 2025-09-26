@@ -26,12 +26,12 @@ export const Hero = () => {
         {/* CTA Button */}
         <div className='flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-2 sm:px-0'>
           <Link 
-            to="/catalogo" 
+            to="/coco-urban/catalogo" 
             className='w-full sm:w-auto bg-amber-500 hover:bg-amber-600 text-black font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-full text-base sm:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg text-center'
           >
             Explorar Colección
           </Link>
-          <Link to="/catalogo/caballero/ofertas" className='w-full sm:w-auto border-2 border-white hover:bg-white hover:text-black text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-full text-base sm:text-lg transition-all duration-300 transform hover:scale-105' href="#">
+          <Link to="/coco-urban/catalogo/caballero/ofertas" className='w-full sm:w-auto border-2 border-white hover:bg-white hover:text-black text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-full text-base sm:text-lg transition-all duration-300 transform hover:scale-105' href="#">
             Ver Ofertas
           </Link>
         </div>

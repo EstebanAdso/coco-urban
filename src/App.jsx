@@ -36,7 +36,7 @@ function App() {
       <Routes>
         {/* Ruta principal */}
         <Route
-          path="/" element={
+          path="/coco-urban" element={
             <>
               <div
                 style={bgImagen}
@@ -55,15 +55,18 @@ function App() {
 
         {/* Layout general */}
         <Route element={<Layout />}>
-          <Route path="/warranty-policy" element={<WarrantyPolicy />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms" element={<TermsAndConditions />} />
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/catalogo" element={<Navigate to="/catalogo/caballero/ofertas" replace />} />
-          <Route path="/catalogo/:categoria" element={<Catalogo />} />
-          <Route path="/catalogo/:categoria/:subcategoria" element={<Catalogo />} />
+          <Route path="/coco-urban/warranty-policy" element={<WarrantyPolicy />} />
+          <Route path="/coco-urban/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/coco-urban/terms" element={<TermsAndConditions />} />
+          <Route path="/coco-urban/about-us" element={<AboutUs />} />
+          <Route path="/coco-urban/catalogo" element={<Navigate to="/coco-urban/catalogo/caballero/ofertas" replace />} />
+          <Route path="/coco-urban/catalogo/:categoria" element={<Catalogo />} />
+          <Route path="/coco-urban/catalogo/:categoria/:subcategoria" element={<Catalogo />} />
         </Route>
 
+        {/* Redirección de la raíz a coco-urban */}
+        <Route path="/" element={<Navigate to="/coco-urban" replace />} />
+        
         {/* Ruta 404 - debe ir al final */}
         <Route path="*" element={<NotFound />} />
 

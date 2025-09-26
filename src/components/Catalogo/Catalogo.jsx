@@ -74,14 +74,14 @@ export const Catalogo = () => {
                         // Si la subcategoría no es válida, redirigir a la primera subcategoría
                         const primeraSubcategoria = categoriaValida.subcategorias[0]?.id;
                         if (primeraSubcategoria) {
-                            navigate(`/catalogo/${categoria}/${primeraSubcategoria}`, { replace: true });
+                            navigate(`/coco-urban/catalogo/${categoria}/${primeraSubcategoria}`, { replace: true });
                         }
                     }
                 } else {
                     // Si no hay subcategoría, redirigir a la primera subcategoría
                     const primeraSubcategoria = categoriaValida.subcategorias[0]?.id;
                     if (primeraSubcategoria) {
-                        navigate(`/catalogo/${categoria}/${primeraSubcategoria}`, { replace: true });
+                        navigate(`/coco-urban/catalogo/${categoria}/${primeraSubcategoria}`, { replace: true });
                     }
                     setIsLoading(false);
                 }
@@ -91,9 +91,9 @@ export const Catalogo = () => {
                 if (primeraCategoria) {
                     const primeraSubcategoria = primeraCategoria.subcategorias[0]?.id;
                     if (primeraSubcategoria) {
-                        navigate(`/catalogo/${primeraCategoria.id}/${primeraSubcategoria}`, { replace: true });
+                        navigate(`/coco-urban/catalogo/${primeraCategoria.id}/${primeraSubcategoria}`, { replace: true });
                     } else {
-                        navigate(`/catalogo/${primeraCategoria.id}`, { replace: true });
+                        navigate(`/coco-urban/catalogo/${primeraCategoria.id}`, { replace: true });
                     }
                 }
                 setIsLoading(false);
@@ -164,9 +164,9 @@ export const Catalogo = () => {
             // Navegar a la nueva categoría con la primera subcategoría
             if (nuevaCategoria.subcategorias.length > 0) {
                 const primeraSubcategoria = nuevaCategoria.subcategorias[0].id;
-                navigate(`/catalogo/${categoryId}/${primeraSubcategoria}`);
+                navigate(`/coco-urban/catalogo/${categoryId}/${primeraSubcategoria}`);
             } else {
-                navigate(`/catalogo/${categoryId}`);
+                navigate(`/coco-urban/catalogo/${categoryId}`);
             }
         }
     };
@@ -174,7 +174,7 @@ export const Catalogo = () => {
     // Manejar el clic en una subcategoría
     const handleSubcategoryClick = (subcategoryId) => {
         // Navegar a la nueva URL con la categoría y subcategoría seleccionadas
-        navigate(`/catalogo/${activeCategory}/${subcategoryId}`);
+        navigate(`/coco-urban/catalogo/${activeCategory}/${subcategoryId}`);
 
         // Actualizar el estado local (aunque el efecto se encargará de esto con los parámetros de la URL)
         setActiveSubcategory(subcategoryId);
@@ -235,7 +235,6 @@ export const Catalogo = () => {
                     <h1 className="text-4xl font-bold text-center text-gray-800 mb-5">
                         {'Catálogo de Productos' + (activeCategory && ` - ${categorias.find(cat => cat.id === activeCategory)?.nombre}`)}
                     </h1>
-
                     {/* Navegación de categorías - Solo visible en desktop */}
                     <div className="hidden md:block mb-12 overflow-x-auto py-4">
                         <div className="flex space-x-3 md:space-x-6 justify-center pb-2 px-4">

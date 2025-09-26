@@ -2,12 +2,12 @@ export const navbarLinks = [
     {
         id: 1,
         title: 'Inicio',
-        link: '/'
+        link: '/coco-urban/'
     },
     {
         id: 2,
         title: 'Catálogo',
-        link: '/catalogo'
+        link: '/coco-urban/catalogo'
     },
     {
         id: 3,
@@ -17,7 +17,7 @@ export const navbarLinks = [
     {
         id: 4,
         title: 'Nosotros',
-        link: '/about-us'
+        link: '/coco-urban/about-us'
     }
 ]
 
