@@ -22,6 +22,14 @@ export const caballeroProducts = {
     },
     {
       id: generateId(),
+      nombre: "Sneaker Urbano Clásico 1",
+      descripcion: "Zapato urbano cómodo y elegante para uso diario",
+      imagen: "/coco-urban/images/zapatos/caballero/sneaker/sneaker.webp",
+      destacado: true,
+      enOferta: true,
+    },
+    {
+      id: generateId(),
       nombre: "Sneaker Deportivo",
       descripcion: "Ideal para actividades deportivas y casual",
       precio: 123.99,
